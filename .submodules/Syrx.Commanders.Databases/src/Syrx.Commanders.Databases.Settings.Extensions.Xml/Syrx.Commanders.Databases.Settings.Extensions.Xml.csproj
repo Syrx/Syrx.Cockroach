@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Description>This package adds support for configuration of Syrx database commands via XML file. </Description>
+		<PackageTags>syrx;data access;orm;micro-orm</PackageTags>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Xml" Version="9.0.9" />
+		<PackageReference Include="Syrx.Validation" Version="2.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\.submodules\Syrx\src\Syrx.Extensions\Syrx.Extensions.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>

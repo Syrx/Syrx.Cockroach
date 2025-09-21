@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Description>This package provides Syrx support for CockroachDB databases.</Description>
+		<PackageTags>syrx;data access;dapper;orm;micro-orm;cockroachdb;cockroach</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\.submodules\Syrx.Commanders.Databases\src\Syrx.Commanders.Databases\Syrx.Commanders.Databases.csproj" />
+		<ProjectReference Include="..\Syrx.Commanders.Databases.Connectors.Cockroach\Syrx.Commanders.Databases.Connectors.Cockroach.csproj" />
+	</ItemGroup>
+
+</Project>

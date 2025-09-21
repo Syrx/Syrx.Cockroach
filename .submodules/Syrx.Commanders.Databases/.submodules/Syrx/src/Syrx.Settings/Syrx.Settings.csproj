@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Description>This package hosts the base ICommandSetting which is what will be executed by the Syrx.ICommander.</Description>
+	</PropertyGroup>
+</Project>

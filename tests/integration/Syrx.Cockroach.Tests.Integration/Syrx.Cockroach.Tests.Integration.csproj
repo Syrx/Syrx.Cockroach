@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.9" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="Syrx.Validation" Version="2.0.0" />
+    <PackageReference Include="Testcontainers.CockroachDb" Version="4.7.0" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\.submodules\Syrx.Commanders.Databases\tests\integration\Syrx.Commanders.Databases.Tests.Integration.Models\Syrx.Commanders.Databases.Tests.Integration.Models.csproj" />
+    <ProjectReference Include="..\..\..\.submodules\Syrx.Commanders.Databases\tests\integration\Syrx.Commanders.Databases.Tests.Integration\Syrx.Commanders.Databases.Tests.Integration.csproj" />
+    <ProjectReference Include="..\..\..\.submodules\Syrx.Commanders.Databases\tests\unit\Syrx.Commanders.Databases.Tests.Extensions\Syrx.Commanders.Databases.Tests.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\src\Syrx.Cockroach.Extensions\Syrx.Cockroach.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\src\Syrx.Cockroach\Syrx.Cockroach.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

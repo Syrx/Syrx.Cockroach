@@ -1,0 +1,12 @@
+global using Microsoft.Extensions.DependencyInjection;
+global using Syrx.Commanders.Databases.Connectors.Cockroach.Extensions;
+global using Syrx.Commanders.Databases.Settings.Extensions;
+global using Syrx.Commanders.Databases.Tests.Extensions;
+global using Syrx.Commanders.Databases.Tests.Integration;
+global using Syrx.Commanders.Databases.Tests.Integration.DatabaseCommanderTests;
+global using Syrx.Extensions;
+global using Testcontainers.CockroachDb;
+global using DotNet.Testcontainers.Builders;
+global using Xunit;
+global using static Syrx.Validation.Contract;
+global using System.Transactions;

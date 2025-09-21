@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Description>This package hosts extension methods to make wiring up support for CockroachDB databases simpler and easier. </Description>
+		<PackageTags>syrx;data access;dapper;orm;micro-orm;cockroachdb;cockroach</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Syrx.Commanders.Databases.Connectors.Cockroach.Extensions\Syrx.Commanders.Databases.Connectors.Cockroach.Extensions.csproj" />
+		<ProjectReference Include="..\Syrx.Cockroach\Syrx.Cockroach.csproj" />
+	</ItemGroup>
+
+</Project>
