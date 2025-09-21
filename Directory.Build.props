@@ -43,7 +43,4 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-	<ItemGroup>
-		<PackageReference Include="Syrx.Analyzers.Usings" Version="1.0.0" />
-	</ItemGroup>
 </Project>
