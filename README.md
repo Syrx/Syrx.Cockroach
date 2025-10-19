@@ -17,8 +17,8 @@ This project provides Syrx support for CockroachDB. The overall experience of us
 |--|--|
 |.NET CLI|```dotnet add package Syrx.Cockroach.Extensions```
 |Package Manager|```Install-Package Syrx.Cockroach.Extensions```
-|Package Reference|```<PackageReference Include="Syrx.Cockroach.Extensions" Version="2.4.0" />```|
-|Paket CLI|```paket add Syrx.Cockroach.Extensions --version 2.4.0```|
+|Package Reference|```<PackageReference Include="Syrx.Cockroach.Extensions" Version="3.0.0" />```|
+|Paket CLI|```paket add Syrx.Cockroach.Extensions --version 3.0.0```|
 
 However, if you don't need the configuration options, you can install the standalone package via [nuget](https://www.nuget.org/packages/Syrx.Cockroach/).  
 
@@ -26,8 +26,8 @@ However, if you don't need the configuration options, you can install the standa
 |--|--|
 |.NET CLI|```dotnet add package Syrx.Cockroach```
 |Package Manager|```Install-Package Syrx.Cockroach```
-|Package Reference|```<PackageReference Include="Syrx.Cockroach" Version="2.4.0" />```|
-|Paket CLI|```paket add Syrx.Cockroach --version 2.4.0```|
+|Package Reference|```<PackageReference Include="Syrx.Cockroach" Version="3.0.0" />```|
+|Paket CLI|```paket add Syrx.Cockroach --version 3.0.0```|
 
 
 ## Extensions

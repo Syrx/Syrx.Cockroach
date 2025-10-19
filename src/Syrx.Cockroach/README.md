@@ -65,7 +65,7 @@ Install-Package Syrx.Cockroach
 
 **PackageReference**
 ```xml
-<PackageReference Include="Syrx.Cockroach" Version="2.4.3" />
+<PackageReference Include="Syrx.Cockroach" Version="3.0.0" />
 ```
 
 ## Quick Start
