@@ -7,8 +7,7 @@ namespace Syrx.Cockroach.Tests.Integration
 
         public CockroachFixture()
         {
-            _container = new CockroachDbBuilder()
-                .WithImage("cockroachdb/cockroach:v23.1.11")
+            _container = new CockroachDbBuilder("cockroachdb/cockroach:v23.1.11")
                 .WithUsername("root")
                 .WithDatabase("defaultdb")
                 .Build();
